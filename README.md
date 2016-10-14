@@ -1,4 +1,4 @@
-## A Spark based utility to decompress .ZIP and .GZIP files ##
+## A Spark based utility to decompress only .ZIP  files ##
 
 This utility provides the functionality to decompress a directory containing compressed (.ZIP and .GZIP) files. Currently spark
 provides the capability to natively read gzipped file into RDDs. However, .ZIP compressed files cannot be read natively. In addition to that,
